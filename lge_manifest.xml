@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!--  <remote name="ok"
+           fetch="git://github.com/Octo-Kat" />
+-->
+  <!-- Vendor -->
+  <project path="vendor/lge" name="platform_vendor_lge" remote="ok" revision="kk-4.4" />
+  <!-- AOSP Devices-->
+  <project path="device/lge/hammerhead" name="platform_device_lge_hammerhead" groups="pdk" remote="ok" revision="kk-4.4" />
+  <!-- CM Kernel -->
+  <project path="kernel/lge/hammerhead" name="platform_kernel_lge_hammerhead" remote="ok" revision="kk-4.4" />
+
+</manifest>
